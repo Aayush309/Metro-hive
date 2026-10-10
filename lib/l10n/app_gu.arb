@@ -1,0 +1,55 @@
+{
+  "@@locale": "gu",
+  "appTitle": "ટનલ ટેક",
+  "homeTitle": "ટનલ ટેક",
+  "homeSubtitle": "મેટ્રો જાળવણી સહાયક",
+  "categoryDoors": "દરવાજા",
+  "categoryTicketGates": "ટિકિટ ગેટ",
+  "categoryLiftsEscalators": "લિફ્ટ અને એસ્કેલેટર",
+  "categorySignalling": "સિગ્નલિંગ",
+  "categoryPower": "પાવર",
+  "categoryNetworkComms": "નેટવર્ક / કોમ્સ",
+  "categoryHvac": "એચવીએસી",
+  "categoryOther": "અન્ય",
+  "symptomsTitle": "લક્ષણો",
+  "stepsTitle": "ટ્રબલશૂટિંગ સ્ટેપ્સ",
+  "safetyWarning": "સુરક્ષા",
+  "stepProgress": "સ્ટેપ {current} માંથી {total}",
+  "@stepProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "markFixed": "ઠીક થયું",
+  "markNotFixed": "ઠીક ન થયું",
+  "escalateCall": "કંટ્રોલ રૂમ કૉલ કરો",
+  "escalateMessage": "ખામી ઠીક ન થઈ. એસ્કેલેશન માટે કંટ્રોલ રૂમને કૉલ કરો.",
+  "shiftLogTitle": "શિફ્ટ લોગ",
+  "shiftLogEmpty": "આજે કોઈ ખામી નોંધાઈ નથી",
+  "statusFixed": "ઠીક થયું",
+  "statusNotFixed": "ઠીક ન થયું",
+  "statusPending": "બાકી",
+  "statusSynced": "સિંક થયું",
+  "offlineChip": "ઑફલાઇન · {count} બાકી",
+  "@offlineChip": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "onlineChip": "ઑનલાઇન · સિંક થયું",
+  "repeatFault": "પુનરાવર્તિત ખામી: આ અઠવાડિયે {count}",
+  "@repeatFault": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "otherSearchHint": "ખામીનું વર્ણન કરો…",
+  "otherSearchResults": "સંભવિત મેળ",
+  "noMatchesFound": "કોઈ મેળ મળ્યો નથી",
+  "assetLabelHint": "એસેટ લેબલ (વૈકલ્પિક)",
+  "languageToggle": "EN",
+  "languageToggleGu": "ગુજ",
+  "progressComplete": "બધા સ્ટેપ્સ પૂર્ણ",
+  "tapToStart": "ટ્રબલશૂટિંગ શરૂ કરવા ખામી પર ટેપ કરો"
+}

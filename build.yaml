@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      riverpod_generator:
+        options:
+          # Customize riverpod generator options if needed
+        generate_for:
+          - lib/**
+      drift_dev:
+        options:
+          override_hash_and_equals_in_result_sets: true
+          store_date_time_values_as_text: true
+        generate_for:
+          - lib/**

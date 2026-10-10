@@ -1,0 +1,134 @@
+{
+  "_note": "SAMPLE DATA, NOT AN OFFICIAL MANUAL. For hackathon prototype only.",
+  "faults": [
+    {
+      "id": "DOOR-001",
+      "category": "Doors",
+      "title": { "en": "Door fails to close fully", "gu": "દરવાજો સંપૂર્ણ બંધ થતો નથી" },
+      "safety": { "en": "Ensure train is stationary and passengers are clear of doors before inspecting.", "gu": "તપાસ કરતાં પહેલાં ખાતરી કરો કે ટ્રેન સ્થિર છે અને મુસાફરો દરવાજાથી દૂર છે." },
+      "steps": [
+        { "en": "Check for obstructions in the door track.", "gu": "દરવાજાના ટ્રેકમાં અવરોધ તપાસો." },
+        { "en": "Inspect the door rubber seal for damage or wear.", "gu": "દરવાજાની રબર સીલ નુકસાન કે ઘસારા માટે તપાસો." },
+        { "en": "Verify the door motor coupling is secure.", "gu": "દરવાજાનું મોટર કપ્લિંગ સુરક્ષિત છે તે ચકાસો." },
+        { "en": "Test the door close limit switch.", "gu": "દરવાજા બંધ લિમિટ સ્વિચ ટેસ્ટ કરો." },
+        { "en": "Reset the door controller via the local panel.", "gu": "લોકલ પેનલ દ્વારા ડોર કંટ્રોલર રીસેટ કરો." }
+      ],
+      "keywords": ["door", "close", "stuck", "obstruction", "seal", "motor"]
+    },
+    {
+      "id": "DOOR-002",
+      "category": "Doors",
+      "title": { "en": "Door open indicator light not working", "gu": "દરવાજો ખુલ્લો છે તેનો સૂચક લાઇટ કામ કરતો નથી" },
+      "safety": { "en": "Do not lean out while inspecting indicator lights.", "gu": "સૂચક લાઇટ તપાસતી વખતે બહાર ઝૂકશો નહીં." },
+      "steps": [
+        { "en": "Check the indicator bulb / LED for burnout.", "gu": "સૂચક બલ્બ / LED બળી ગયો છે કે તપાસો." },
+        { "en": "Inspect the wiring harness for loose connections.", "gu": "છૂટા કનેક્શન માટે વાયરિંગ હાર્નેસ તપાસો." },
+        { "en": "Replace the indicator module if faulty.", "gu": "ખામીયુક્ત હોય તો સૂચક મોડ્યુલ બદલો." }
+      ],
+      "keywords": ["door", "indicator", "light", "LED", "bulb", "open"]
+    },
+    {
+      "id": "TGATE-001",
+      "category": "Ticket Gates",
+      "title": { "en": "Ticket gate not accepting smart cards", "gu": "ટિકિટ ગેટ સ્માર્ટ કાર્ડ સ્વીકારતું નથી" },
+      "safety": { "en": "Keep hands away from the gate flap mechanism.", "gu": "ગેટ ફ્લેપ મિકેનિઝમથી હાથ દૂર રાખો." },
+      "steps": [
+        { "en": "Clean the card reader sensor with a dry microfiber cloth.", "gu": "સૂકા માઇક્રોફાઇબર કાપડથી કાર્ડ રીડર સેન્સર સાફ કરો." },
+        { "en": "Restart the gate controller using the rear power switch.", "gu": "પાછળના પાવર સ્વિચનો ઉપયોગ કરીને ગેટ કંટ્રોલર ફરીથી શરૂ કરો." },
+        { "en": "Test with a known-good smart card.", "gu": "ચકાસાયેલ સારા સ્માર્ટ કાર્ડ વડે ટેસ્ટ કરો." },
+        { "en": "Check the NFC module status LED on the control board.", "gu": "કંટ્રોલ બોર્ડ પર NFC મોડ્યુલ સ્ટેટસ LED તપાસો." }
+      ],
+      "keywords": ["ticket", "gate", "smart card", "NFC", "reader", "tap"]
+    },
+    {
+      "id": "TGATE-002",
+      "category": "Ticket Gates",
+      "title": { "en": "Gate flaps not opening on valid ticket", "gu": "માન્ય ટિકિટ પર ગેટ ફ્લેપ ખુલતા નથી" },
+      "safety": { "en": "Stand clear of gate flaps during testing.", "gu": "ટેસ્ટિંગ દરમિયાન ગેટ ફ્લેપથી દૂર ઊભા રહો." },
+      "steps": [
+        { "en": "Check the flap motor for unusual sounds or resistance.", "gu": "ફ્લેપ મોટરમાં અસામાન્ય અવાજ કે પ્રતિકાર તપાસો." },
+        { "en": "Verify the solenoid actuator engages when triggered.", "gu": "ટ્રિગર થાય ત્યારે સોલેનોઈડ એક્ચ્યુએટર કામ કરે છે તે ચકાસો." },
+        { "en": "Inspect the gate controller error log via the service terminal.", "gu": "સર્વિસ ટર્મિનલ દ્વારા ગેટ કંટ્રોલર એરર લોગ તપાસો." }
+      ],
+      "keywords": ["gate", "flap", "open", "motor", "solenoid", "ticket"]
+    },
+    {
+      "id": "LIFT-001",
+      "category": "Lifts & Escalators",
+      "title": { "en": "Escalator emergency stop triggered", "gu": "એસ્કેલેટર ઇમર્જન્સી સ્ટોપ ટ્રિગર થયું" },
+      "safety": { "en": "Confirm all passengers have stepped off before resetting. Wear high-visibility vest.", "gu": "રીસેટ કરતાં પહેલાં ખાતરી કરો કે બધા મુસાફરો ઉતરી ગયા છે. હાઈ-વિઝિબિલિટી વેસ્ટ પહેરો." },
+      "steps": [
+        { "en": "Identify which e-stop button was activated (top or bottom).", "gu": "કયું ઇ-સ્ટોપ બટન સક્રિય થયું છે તે ઓળખો (ઉપર કે નીચે)." },
+        { "en": "Visually inspect the escalator steps for debris or damage.", "gu": "એસ્કેલેટર સ્ટેપ્સ પર કચરો કે નુકસાન દ્રશ્ય રીતે તપાસો." },
+        { "en": "Reset the e-stop button by twisting clockwise.", "gu": "ઘડિયાળની દિશામાં ફેરવીને ઇ-સ્ટોપ બટન રીસેટ કરો." },
+        { "en": "Use the key switch to restart the escalator in slow mode.", "gu": "એસ્કેલેટરને સ્લો મોડમાં ફરીથી ચાલુ કરવા કી સ્વિચ વાપરો." },
+        { "en": "Observe for two minutes before switching to normal speed.", "gu": "સામાન્ય ગતિ પર સ્વિચ કરતાં પહેલાં બે મિનિટ નિરીક્ષણ કરો." }
+      ],
+      "keywords": ["escalator", "emergency", "stop", "e-stop", "reset", "steps"]
+    },
+    {
+      "id": "SIG-001",
+      "category": "Signalling",
+      "title": { "en": "Platform display showing wrong destination", "gu": "પ્લેટફોર્મ ડિસ્પ્લે ખોટું ગંતવ્ય બતાવે છે" },
+      "safety": { "en": "Do not modify signalling software without supervisor authorisation.", "gu": "સુપરવાઇઝરની મંજૂરી વિના સિગ્નલિંગ સોફ્ટવેર બદલશો નહીં." },
+      "steps": [
+        { "en": "Note the incorrect information displayed and the actual schedule.", "gu": "બતાવાતી ખોટી માહિતી અને વાસ્તવિક સમયપત્રક નોંધો." },
+        { "en": "Restart the PIDS (Passenger Information Display System) via the station server.", "gu": "સ્ટેશન સર્વર દ્વારા PIDS (મુસાફર માહિતી ડિસ્પ્લે સિસ્ટમ) રીસ્ટાર્ટ કરો." },
+        { "en": "Verify the data feed connection to the central OCC.", "gu": "સેન્ટ્રલ OCC સાથે ડેટા ફીડ કનેક્શન ચકાસો." }
+      ],
+      "keywords": ["display", "destination", "PIDS", "wrong", "sign", "platform"]
+    },
+    {
+      "id": "PWR-001",
+      "category": "Power",
+      "title": { "en": "Station lighting partial failure", "gu": "સ્ટેશન લાઇટિંગ આંશિક નિષ્ફળતા" },
+      "safety": { "en": "Use a torch in unlit areas. Do not open electrical panels without lock-out/tag-out.", "gu": "અંધારી જગ્યાઓમાં ટોર્ચ વાપરો. લોક-આઉટ/ટેગ-આઉટ વિના ઇલેક્ટ્રિકલ પેનલ ખોલશો નહીં." },
+      "steps": [
+        { "en": "Identify the affected lighting circuit on the distribution board.", "gu": "ડિસ્ટ્રિબ્યુશન બોર્ડ પર અસરગ્રસ્ત લાઇટિંગ સર્કિટ ઓળખો." },
+        { "en": "Check the circuit breaker position (tripped / on / off).", "gu": "સર્કિટ બ્રેકરની સ્થિતિ તપાસો (ટ્રિપ / ઓન / ઓફ)." },
+        { "en": "If tripped, investigate for short circuit before resetting.", "gu": "જો ટ્રિપ થયું હોય, તો રીસેટ કરતાં પહેલાં શોર્ટ સર્કિટ માટે તપાસ કરો." },
+        { "en": "Reset the breaker and verify lighting restores.", "gu": "બ્રેકર રીસેટ કરો અને લાઇટિંગ પુનઃસ્થાપિત થાય છે તે ચકાસો." }
+      ],
+      "keywords": ["light", "power", "circuit", "breaker", "trip", "station"]
+    },
+    {
+      "id": "NET-001",
+      "category": "Network/Comms",
+      "title": { "en": "PA system not broadcasting on platform", "gu": "પ્લેટફોર્મ પર PA સિસ્ટમ પ્રસારણ કરતી નથી" },
+      "safety": { "en": "Test PA at low volume to avoid startling passengers.", "gu": "મુસાફરોને ચોંકાવવાનું ટાળવા ઓછા વોલ્યુમ પર PA ટેસ્ટ કરો." },
+      "steps": [
+        { "en": "Check if the PA amplifier power LED is on.", "gu": "PA એમ્પ્લીફાયર પાવર LED ચાલુ છે કે તપાસો." },
+        { "en": "Verify speaker zone selection on the PA control panel.", "gu": "PA કંટ્રોલ પેનલ પર સ્પીકર ઝોન સિલેક્શન ચકાસો." },
+        { "en": "Test with a different microphone or audio source.", "gu": "અલગ માઇક્રોફોન કે ઓડિયો સ્ત્રોત વડે ટેસ્ટ કરો." },
+        { "en": "Inspect speaker cable connections at the patch panel.", "gu": "પેચ પેનલ પર સ્પીકર કેબલ કનેક્શન તપાસો." }
+      ],
+      "keywords": ["PA", "speaker", "audio", "broadcast", "public address", "comms"]
+    },
+    {
+      "id": "HVAC-001",
+      "category": "HVAC",
+      "title": { "en": "Platform area overheating — AC not cooling", "gu": "પ્લેટફોર્મ વિસ્તાર વધુ ગરમ — AC ઠંડુ કરતું નથી" },
+      "safety": { "en": "High temperature risk. Carry water and take breaks every 20 minutes.", "gu": "ઉચ્ચ તાપમાનનું જોખમ. પાણી રાખો અને દર 20 મિનિટે વિરામ લો." },
+      "steps": [
+        { "en": "Check the HVAC control panel for error codes.", "gu": "એરર કોડ્સ માટે HVAC કંટ્રોલ પેનલ તપાસો." },
+        { "en": "Verify the thermostat set-point vs actual temperature.", "gu": "થર્મોસ્ટેટ સેટ-પોઇન્ટ vs વાસ્તવિક તાપમાન ચકાસો." },
+        { "en": "Inspect air filters for blockage — clean or replace if dirty.", "gu": "બ્લોકેજ માટે એર ફિલ્ટર્સ તપાસો — ગંદા હોય તો સાફ કરો કે બદલો." },
+        { "en": "Check refrigerant pressure gauges on the outdoor unit.", "gu": "આઉટડોર યુનિટ પર રેફ્રિજરન્ટ પ્રેશર ગેજ તપાસો." }
+      ],
+      "keywords": ["HVAC", "AC", "cooling", "temperature", "filter", "aircon", "hot"]
+    },
+    {
+      "id": "HVAC-002",
+      "category": "HVAC",
+      "title": { "en": "Tunnel ventilation fan vibration alarm", "gu": "ટનલ વેન્ટિલેશન ફેન વાઇબ્રેશન એલાર્મ" },
+      "safety": { "en": "Tunnel entry requires two-person rule and OCC clearance. Wear ear protection near fans.", "gu": "ટનલમાં પ્રવેશ માટે બે-વ્યક્તિ નિયમ અને OCC મંજૂરી જરૂરી છે. ફેન પાસે કાનનું રક્ષણ પહેરો." },
+      "steps": [
+        { "en": "Note the vibration level reading from the BMS alarm.", "gu": "BMS એલાર્મમાંથી વાઇબ્રેશન લેવલ રીડિંગ નોંધો." },
+        { "en": "Visually inspect the fan blades for damage or foreign objects.", "gu": "ફેન બ્લેડ્સ નુકસાન કે વિદેશી વસ્તુઓ માટે દ્રશ્ય રીતે તપાસો." },
+        { "en": "Check mounting bolts for looseness.", "gu": "માઉન્ટિંગ બોલ્ટ્સ ઢીલા છે કે તપાસો." },
+        { "en": "Record vibration data and report to mechanical team.", "gu": "વાઇબ્રેશન ડેટા રેકોર્ડ કરો અને મિકેનિકલ ટીમને જાણ કરો." }
+      ],
+      "keywords": ["ventilation", "fan", "vibration", "tunnel", "BMS", "alarm"]
+    }
+  ]
+}

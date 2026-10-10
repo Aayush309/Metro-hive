@@ -1,0 +1,55 @@
+{
+  "@@locale": "en",
+  "appTitle": "Tunnel Tech",
+  "homeTitle": "Tunnel Tech",
+  "homeSubtitle": "Metro Maintenance Assistant",
+  "categoryDoors": "Doors",
+  "categoryTicketGates": "Ticket Gates",
+  "categoryLiftsEscalators": "Lifts & Escalators",
+  "categorySignalling": "Signalling",
+  "categoryPower": "Power",
+  "categoryNetworkComms": "Network / Comms",
+  "categoryHvac": "HVAC",
+  "categoryOther": "Other",
+  "symptomsTitle": "Symptoms",
+  "stepsTitle": "Troubleshooting Steps",
+  "safetyWarning": "SAFETY",
+  "stepProgress": "Step {current} of {total}",
+  "@stepProgress": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "markFixed": "Fixed",
+  "markNotFixed": "Not Fixed",
+  "escalateCall": "Call Control Room",
+  "escalateMessage": "Could not resolve fault. Tap to call the control room for escalation.",
+  "shiftLogTitle": "Shift Log",
+  "shiftLogEmpty": "No faults logged today",
+  "statusFixed": "Fixed",
+  "statusNotFixed": "Not Fixed",
+  "statusPending": "Pending",
+  "statusSynced": "Synced",
+  "offlineChip": "Offline · {count} pending",
+  "@offlineChip": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "onlineChip": "Online · synced",
+  "repeatFault": "Repeat fault: {count} this week",
+  "@repeatFault": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "otherSearchHint": "Describe the fault…",
+  "otherSearchResults": "Possible matches",
+  "noMatchesFound": "No matches found",
+  "assetLabelHint": "Asset label (optional)",
+  "languageToggle": "EN",
+  "languageToggleGu": "ગુજ",
+  "progressComplete": "All steps completed",
+  "tapToStart": "Tap a fault to begin troubleshooting"
+}
